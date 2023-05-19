@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="etchasketch.css">
+    <script src="etchasketch.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="items">
+    <div class="slider">
+        <input type="range" min="0" max="160" value="160" step="40">
+        <p id="rangeValue">160</p>
+    </div>
+        <div class="colorPicker1">
+        <label for="colorPicker">Square Color:</label>
+        <input type="color" id="colorPicker" value="#000000">
+    
+    </div>
+    <div class="rainbow">
+        <label style="margin-right: 5px;">Rainbowswitch</label>
+        <label class="toggle-button">
+            
+            <input type="checkbox">
+            <span class="toggle-slider"></span>
+        </label> 
+    </div>
+</div>
+    
+</body>
+</html>
