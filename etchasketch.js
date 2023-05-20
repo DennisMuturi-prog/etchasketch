@@ -55,6 +55,9 @@ myinput.addEventListener('input',function(){
     if(myBoolean){
     toggleButton.checked = !toggleButton.checked;
     myBoolean=!myBoolean;}
+    if(myBoolean2){
+      shaderButton.checked = !shaderButton.checked;
+      myBoolean2=!myBoolean2;}
     
     
    
